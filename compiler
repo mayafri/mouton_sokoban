@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm jeu
+
+gcc src/main.c src/deplacement.c src/affichage.c src/fichiers.c src/ecrans.c -Wall -o jeu `sdl-config --cflags --libs` -lSDL_ttf
+
