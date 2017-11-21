@@ -6,7 +6,10 @@ Mouton Sokoban est un petit jeu de Sokoban développé en C et SDL. Le principe 
 
 # Compilation
 
-Avec gcc, la SDL et SDL_ttf.
+Avec gcc, puis les dépendances **SDL** et **SDL_ttf** (voir les paquets de votre distribution).
 
-> make
+> cd src
+
+> ./compiler
+
 
